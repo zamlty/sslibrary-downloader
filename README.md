@@ -4,7 +4,7 @@ Download a book from www.sslibrary.com and create PDF.
 
 Logic learned from [padeoe's nju-lib-downloader](https://github.com/padeoe/nju-lib-downloader), many thanks!
 
-zamlty 2017.06.18
+zamlty  2017.06.18
 
 - Requirements: 
   1. Download: Python3 (Anaconda would be better)
