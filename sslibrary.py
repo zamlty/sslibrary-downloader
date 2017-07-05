@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Jun 17 17:15:43 2017
-
-@author: zamlty
-"""
 
 import os
 import re
@@ -18,10 +13,12 @@ def download(fname, jpgUrl):
         f.write(p.content)
 
 
+# Modify here
 url = 'http://img.sslibrary.com/n/slib/book/slib/11647684/4fae1823b856407795c25ba7a8af7432/4bd18516cf404e663f8d36e2f949ec43.shtml?dxbaoku=true'
 path = r'D:\Downloads\doc\njulibpdf'
 #path = os.path.abspath('.')
 threads = 5
+# End
 
 text = requests.get(url).text
 title = re.findall(r'<title>([\s\S]+)</title>', text)[0]
