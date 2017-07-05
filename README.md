@@ -1,6 +1,6 @@
 # sslibrary-downloader
 Download a book from www.sslibrary.com and create PDF.
-Logic learned from (padeoe's nju-lib-downloader)[https://github.com/padeoe/nju-lib-downloader], many thanks!
+Logic learned from [padeoe's nju-lib-downloader](https://github.com/padeoe/nju-lib-downloader), many thanks!
 
 zamlty 2017.06.18
 
